@@ -1,9 +1,10 @@
 # Git and Git-Hub Setup Guide
-## Generate key
+## In the Git Bash terminal
+### Generate key
 
 - ```ssh-keygen -t rsa -b 4096 -C "emailaddress"```
 
-## Link key
+### Link key
 
 - Navigate into folder containing key with ```cd ~/.ssh```
 - Use ```cat id_rsa.pub``` to get public key to copy
